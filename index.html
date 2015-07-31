@@ -9,54 +9,27 @@
 
   <!-- Site Properities -->
   <title>iGEM - UFSCar</title>
-  <link rel="stylesheet" type="text/css" href="//oss.maxcdn.com/semantic-ui/2.0.3/semantic.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="http://oss.maxcdn.com/semantic-ui/2.0.3/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body>
+<body id="body">
   <!-- Page Contents -->
-  <div class="pusher">
+  <div class="pusher" id="pusher">
     <div class="full height">
-
-      <div class="ui inverted teal vertical masthead center aligned segment">
-
-        <div class="ui container">
-          <div class="center aligned overlay">
-            <div class="ui five large stackable pointing secondary network menu">
-              <a class="active item">Home</a>
-              <div class="ui dropdown item">
-                The Team
-                <div class="menu">
-                  <a class="item" href="team.html">About the team</a>
-                  <a class="item">Notebook</a>
-                  <a class="item">Attributions</a>
-                </div>
-              </div>
-              <div class="ui dropdown item">
-                The Project
-                <div class="menu">                                  
-                  <a class="item">Description</a>
-                  <a class="item">Experiments & Protocols</a>
-                  <a class="item">Results</a>
-                  <a class="item">Design</a>
-                </div>
-              </div>
-              <a class="item">Parts</a>
-              <a class="item">Colaborations</a>
-              <div class="ui dropdown item">
-		Human Pratices
- 		<div class="menu">
-                  <a class="item">Educational</a>
-                  <a class="item">Political</a>
-                  <a class="item">Social</a>
-                </div>
-              </div>
-	      <a class="item">Safety</a>
-	      <a class="item">Modeling</a>
-             </div>
+      <div class="menuOverlay">
+        <div class="ui inverted stackable secondary pointing large network menu">
+          <div class="ui container">
+            <a class="active item">Home</a>
+            <a href="#" class="item">The Team</a>
+            <a href="#" class="item">The Project</a>
+            <a href="#" class="item">Timeline</a>
+            <a href="#" class="item">Contributions</a>
           </div>
         </div>
+      </div>
 
+      <div class="ui inverted teal vertical masthead center aligned segment">
         <div class="ui row container">
           <div class="ui centered blurring dimmable image">
             <div class="ui dimmer">
@@ -73,7 +46,7 @@
         </div>
       </div>
 
-      <div class="ui vertical stripe segment">
+      <div class="ui vertical stripe segment" id="mainSegment">
         <div class="ui middle aligned stackable grid container">
           <div class="row">
             <div class="eight wide column">
@@ -128,9 +101,10 @@
     </div>
   </div>
 
-  <script src="//code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
-  <script src="//oss.maxcdn.com/semantic-ui/2.0.3/semantic.min.js" type="text/javascript"></script>
-  <script src="/js/script.js" type="text/javascript"></script>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+  <script src="http://oss.maxcdn.com/semantic-ui/2.0.3/semantic.min.js" type="text/javascript"></script>
+  <script src="js/script.js" type="text/javascript"></script>
+  <script src="http://localhost:35729/livereload.js"></script>
 
 </body>
 
