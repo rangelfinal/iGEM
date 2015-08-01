@@ -73,6 +73,7 @@
   line-height: 53px;
   text-align: center;
   color: #333;
+  transition: ease;
 }
 .plate:hover i {
   color: #111;
