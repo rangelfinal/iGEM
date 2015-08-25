@@ -4,5 +4,5 @@ $('.ui.dropdown').dropdown({
 });
 
 $('a').smoothScroll({
-  offset: -50
+  offset: -70
 });
