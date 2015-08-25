@@ -1,0 +1,62 @@
+/*csslint adjoining-classes:false */
+
+.full.page {
+  height: 100%;
+}
+
+.menuOverlay {
+  background-color: #FFFFFF;
+  padding: 0em;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: all 0.5s ease;
+  background: transparent;
+}
+/* change style */
+.fixed.menuOverlay {
+  position: fixed;
+  padding: 1em;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.masthead.segment {
+  min-height: 400px;
+  padding: 2em 0;
+}
+.masthead .logo.item img {
+  margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+  margin-left: 0.5em;
+}
+.masthead .ui.header {
+  margin-top: 3em;
+  margin-bottom: 0;
+  font-size: 4em;
+  font-weight: normal;
+}
+.masthead .header {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+.masthead .image {
+  margin-top: 3em;
+}
+
+.ui.vertical.stripe {
+  padding: 8em 0;
+}
+.ui.vertical.stripe .header {
+  font-size: 2em;
+}
+.ui.vertical.stripe .button + .header, .ui.vertical.stripe p + .header {
+  margin-top: 3em;
+}
+.ui.vertical.stripe .floated.image {
+  clear: both;
+}
+.ui.vertical.stripe p {
+  font-size: 1.33em;
+}
+.ui.vertical.stripe .horizontal.divider {
+  margin: 3em 0;
+}

@@ -1,88 +1,68 @@
-.hidden.menu {
-    display: none;
-}
+/*csslint adjoining-classes:false */
 
-.masthead.segment {
-    min-height: 700px;
-    padding: 1em 0em;
+.spacer {
+  margin-bottom: 30px;
 }
-.masthead .logo.item img {
-    margin-right: 1em;
+.slides img {
+  width: 100%;
+  height: auto;
 }
-.masthead .ui.menu .ui.button {
-    margin-left: 0.5em;
+.fluid.container .text.container {
+  padding: 2em 0;
 }
-.masthead h1.ui.header {
-    margin-top: 3em;
-    margin-bottom: 0em;
-    font-size: 4em;
-    font-weight: normal;
-}
-.masthead h2 {
-    font-size: 1.7em;
-    font-weight: normal;
-}
-
 .ui.vertical.stripe {
-    padding: 8em 0em;
+  padding: 8em 0;
 }
 .ui.vertical.stripe h3 {
-    font-size: 2em;
+  font-size: 2em;
 }
-.ui.vertical.stripe .button + h3,
-.ui.vertical.stripe p + h3 {
-    margin-top: 3em;
+.ui.vertical.stripe .button + h3, .ui.vertical.stripe p + h3 {
+  margin-top: 3em;
 }
 .ui.vertical.stripe .floated.image {
-    clear: both;
+  clear: both;
 }
 .ui.vertical.stripe p {
-    font-size: 1.33em;
+  font-size: 1.33em;
 }
 .ui.vertical.stripe .horizontal.divider {
-    margin: 3em 0em;
+  margin: 3em 0em;
 }
-
 .quote.stripe.segment {
-    padding: 0em;
+  padding: 0em;
 }
 .quote.stripe.segment .grid .column {
-    padding-top: 5em;
-    padding-bottom: 5em;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
-
 .footer.segment {
-    padding: 5em 0em;
+  padding: 5em 0em;
 }
-
 .secondary.pointing.menu .toc.item {
-    display: none;
+  display: none;
 }
-
 @media only screen and (max-width: 700px) {
-    .ui.fixed.menu {
-        display: none !important;
-    }
-    .secondary.pointing.menu .item,
-    .secondary.pointing.menu .menu {
-        display: none;
-    }
-    .secondary.pointing.menu .toc.item {
-        display: block;
-    }
-    .masthead.segment {
-        min-height: 350px;
-    }
-    .masthead h1.ui.header {
-        font-size: 2em;
-        margin-top: 1.5em;
-    }
-    .masthead h2 {
-        margin-top: 0.5em;
-        font-size: 1.5em;
-    }
+  .ui.fixed.menu {
+    display: none !important;
+  }
+  .secondary.pointing.menu .item, .secondary.pointing.menu .menu {
+    display: none;
+  }
+  .secondary.pointing.menu .toc.item {
+    display: block;
+  }
+  .masthead.segment {
+    min-height: 350px;
+  }
+  .masthead h1.ui.header {
+    font-size: 2em;
+    margin-top: 1.5em;
+  }
+  .masthead h2 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
 }
-
 .main_h {
   position: fixed;
   top: 0px;
@@ -104,7 +84,6 @@
     padding-top: 25px;
   }
 }
-
 .open-nav {
   max-height: 400px !important;
 }
@@ -112,14 +91,12 @@
   transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
 }
-
 .sticky {
   background-color: rgba(255, 255, 255, 0.93);
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid gainsboro;
 }
-
 .logo {
   width: 50px;
   font-size: 25px;
@@ -136,7 +113,6 @@
     float: none;
   }
 }
-
 nav {
   float: right;
   width: 60%;
@@ -178,7 +154,6 @@ nav ul a {
   text-transform: uppercase;
   font-size: 12px;
 }
-
 .mobile-toggle {
   display: none;
   cursor: pointer;
@@ -203,4 +178,9 @@ nav ul a {
   border-radius: 1000px;
   background: #8f8f8f;
   display: block;
+}
+
+.ufscar.slider img, .sponsor.slider img {
+  height: 150px;
+  margin: 0 2em;
 }

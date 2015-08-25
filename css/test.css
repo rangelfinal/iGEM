@@ -1,0 +1,43 @@
+.bigger-ball {
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  margin-left: 5em;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  background-color: red;
+  visibility: hidden;
+}
+.ball {
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  margin-left: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  visibility: visible;
+  overflow: hidden;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  background-color: rgb(200, 70, 30);
+}
+.content {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 5em;
+}
+.hidden.content {
+  visibility: hidden;
+}
+.content:hover > .hidden.content {
+  visibility: visible;
+}
+
+.content:hover < .bigger-ball {
+  visibility: visible;
+}

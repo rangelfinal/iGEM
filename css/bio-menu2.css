@@ -24,13 +24,13 @@ body {
   text-align: center;
   font-size: 1.8em;
   padding-bottom: 1em;
-  height: 3.5em;
-  width: 3.5em;
+  height: 4.5em;
+  width: 4.5em;
   background-color: #fff;
   position: fixed;
   left: 50%;
-  margin-left: -1.75em;
-  bottom: -1.75em;
+  margin-left: -2.25em;
+  bottom: -2.25em;
   border-radius: 50%;
   cursor: pointer;
   z-index: 11;
@@ -159,7 +159,7 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
   -webkit-transform: rotate(70deg) skew(50deg);
   -ms-transform: rotate(70deg) skew(50deg);
   -moz-transform: rotate(70deg) skew(50deg);
-  transform: rotate(70deg) skew(50deg)
+  transform: rotate(70deg) skew(50deg);
 }
 .cn-wrapper li:nth-child(4) {
   -webkit-transform: rotate(110deg) skew(50deg);

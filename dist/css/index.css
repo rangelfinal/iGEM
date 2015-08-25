@@ -1,0 +1,16 @@
+/*csslint adjoining-classes:false */
+
+.spacer {
+  margin-bottom: 30px;
+}
+.slides img {
+  width: 100%;
+  height: auto;
+}
+.fluid.container .text.container {
+  padding: 2em 0;
+}
+.ufscar.slider img, .sponsor.slider img {
+  height: 150px;
+  margin: 0 2em;
+}
