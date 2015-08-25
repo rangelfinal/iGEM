@@ -1,8 +1,3 @@
-$('.ui.dropdown').dropdown({
-  allowCategorySelection: true,
-  on: 'hover'
-});
-
 $('.banner.slider').slick({
   dots: true,
   adaptiveHeight: true
