@@ -6,3 +6,5 @@ $('.ui.dropdown').dropdown({
 $('a').smoothScroll({
   offset: -70
 });
+
+$('.ui.accordion').accordion();
