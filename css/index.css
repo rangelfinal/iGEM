@@ -1,3 +1,17 @@
 .sponsor img, .ufscar img {
   height: 150px;
 }
+
+h1.ui.header {
+  padding: 0 0;
+  margin-bottom: 0;
+}
+
+h2.ui.header {
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.segment .text.container {
+  padding: 0 0;
+}
